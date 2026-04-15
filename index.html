@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta properly="og:image" content="oding.png">
+    <title>Fasilitas SMK | Firmasa School</title>
+    <style>
+        /* 1. PENGATURAN DASAR */
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #000000;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            color: rgba(255, 255, 255, 0.664);
+        }
+
+       
+       
+
+        /* 3. STYLE KOTAK FASILITAS (UTAMA) */
+        .facility-item {
+            background: white;
+            margin-bottom: 20px;
+            padding: 25px;
+            border-radius: 15px;
+            box-shadow: 0 0 15px  rgba(0, 222, 238, 0.925);
+            display: flex; /* Membuat konten sejajar kiri-kanan */
+            align-items: center;
+            margin-bottom: 50px;
+        }
+
+        /* Lingkaran Angka/Icon */
+        .number-box {
+            background: #000000;
+            color: white;
+            min-width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        .info h3 {
+            margin: 0 0 5px 0;
+            color: #2d3436;
+        }
+
+        .info p {
+            margin: 0;
+            color: #636e72;
+            line-height: 1.5;
+            font-size: 15px;
+           
+        }
+
+        img{
+            width: 150px;
+            height: 150px;
+            border-radius: 150px;
+            box-shadow: 0 0 15px rgba(0, 222, 238, 0.925);
+        }
+
+
+        a, p{
+            text-decoration: none;
+        }
+
+        /* 4. RESPONSIVE (UNTUK HP) */
+        @media (max-width: 500px) {
+            .facility-item { flex-direction: column; text-align: center; }
+            .number-box { margin-right: 0; margin-bottom: 15px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <img src="WhatsApp Image 2026-01-16 at 12.53.27 (1).jpeg" alt="">
+            <h1>Marweb</h1>
+            <p>Selamat datang dan selamat menikmati diMarweb</p>
+        </div>
+
+        <div class="facility-item">
+            <div class="number-box">01</div>
+            <div class="info">
+                <h3>PORTFOLIO</h3>
+               <a href="https://marvelradityapratamaok-cyber.github.io/Web/"> <p> Disini kalian dapat melihat karya yang cukup menarik </p> </a>
+            </div>
+        </div>
+
+        <div class="facility-item">
+            <div class="number-box">02</div>
+            <div class="info">
+                <h3>JASA DESIGN/WEBSITE</h3>
+           <a href=""><p>Marweb menyediakan jasa design dan jasa website </p></a>
+            </div>
+        </div>
+
+        <div class="facility-item">
+            <div class="number-box">03</div>
+            <div class="info">
+                <h3>COMONITAS ART</h3>
+          <a href="https://chat.whatsapp.com/LWKPpR28K8VDfCIm6Uj0oc"><p>bagi yang lagi butuh Comunitas art boleh banget nih masuk</p></a> 
+
+            </div>
+        </div>
+
+        <div class="facility-item">
+            <div class="number-box">04</div>
+            <div class="info">
+                <h3>COMONITAS DESIGN</h3>
+            <a href="https://chat.whatsapp.com/HUZcakGewjc0Cys5mKp6wd"> <p>kalau tadi art nah kali ini versi design</p></a>   
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
